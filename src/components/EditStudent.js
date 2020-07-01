@@ -37,35 +37,35 @@ export const EditStudent = (props) => {
   }
 
   const onChangeLastName = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.lastName]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onChangeStreetName = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.streetName]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onChangeStreetNumber = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.streetNumber]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onChangeCity = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.city]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
   
   const onChangeStateAddress = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.state]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
   
   const onChangeZip = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.zip]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onChangePhone = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.phone]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onChangeGPA = (e) => {
-    setSelectedStudent({ ...selectedStudent, [e.target.gpa]: e.target.value });
+    setSelectedStudent({ ...selectedStudent, [e.target.name]: e.target.value });
   }
 
   const onSubmit = (e) => {
